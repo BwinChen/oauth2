@@ -1,0 +1,26 @@
+package com.bwin.resource.config;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.web.access.AccessDeniedHandler;
+import java.io.IOException;
+
+/**
+ * @author McAfee
+ */
+@Slf4j
+public class MyAccessDeniedHandler implements AccessDeniedHandler {
+
+    /**
+     * 权限不足时执行
+     */
+    @Override
+    public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException accessDeniedException)
+            throws IOException, ServletException {
+        log.error("access denied");
+    }
+
+}
