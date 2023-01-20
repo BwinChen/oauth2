@@ -58,3 +58,6 @@ Content-Type: application/x-www-form-urlencoded
 username=user&password=password
 
 <> 2023-01-11T105107.404.json
+
+### 获取登录用户信息
+GET http://127.0.0.1:8080/authentication

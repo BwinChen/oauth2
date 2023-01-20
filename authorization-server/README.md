@@ -4,7 +4,7 @@
 
 For further reference, please consider the following sections:
 
-* [Getting Started](https://docs.spring.io/spring-authorization-server/docs/current/reference/html/getting-started.html)
+* [Spring Authorization Server](https://spring.io/projects/spring-authorization-server)
 
 ### Guides
 

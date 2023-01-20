@@ -35,9 +35,4 @@ public class ClientController {
                 .block();
     }
 
-    @GetMapping("/permit")
-    public String permit() {
-        return "permit";
-    }
-
 }
